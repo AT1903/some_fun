@@ -4,7 +4,7 @@ print(d)
 
 
 def print_d(d, indent=0):
-    s = "...."
+    s = "____"
     for key, value in d.items():
         print(s * indent + str(key))
         if isinstance(value, dict): # вернет True, если проверяемый объект object является экземпляром словаря
